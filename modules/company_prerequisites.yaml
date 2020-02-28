@@ -5,4 +5,5 @@
   become_method: sudo
   connection: ssh
   ignore_errors: false
-  tasks:
+  roles: 
+    - {role: company_prerequisites}
