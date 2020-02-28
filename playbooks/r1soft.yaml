@@ -24,7 +24,7 @@
       ignore_errors: true
 
     - name: Get Key
-      shell: r1soft-setup --get-key http://backup.acirrustech.com   
+      shell: r1soft-setup --get-key http://backup.tazagul.net   
 
   handlers:
     - name: R1soft RESTART
